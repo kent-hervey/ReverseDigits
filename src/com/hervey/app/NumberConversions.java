@@ -12,7 +12,7 @@ public class NumberConversions {
 			
 			int workingDigit = workingInt%10;
 			
-			if(newNum==0) {
+			if(false) {
 				newNum=workingDigit;
 			}
 			else {
