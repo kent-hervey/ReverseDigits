@@ -11,27 +11,13 @@ public class NumberConversions {
 		while (true) {
 			
 			int workingDigit = workingInt%10;
-			
-			if(false) {
-				newNum=workingDigit;
-			}
-			else {
-				newNum=(newNum*10)+workingDigit;
-			}
-			
-			
+			newNum=(newNum*10)+workingDigit;
 			workingInt = workingInt/10;
 			
-			System.out.println("workingInt this time through loop is: " + workingInt + " and the working Digit is:  " + workingDigit + " and newNum is " +newNum);
-
-			
-			
-			
-
+			//System.out.println("workingInt this time through loop is: " + workingInt + " and the working Digit is:  " + workingDigit + " and newNum is " +newNum);
 			if (Math.abs(workingInt)<=0) {
 				break;
 			}
-
 		}
 
 		return newNum;
